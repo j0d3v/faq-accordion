@@ -22,7 +22,7 @@ body {
   height: fit-content;
   height: 40dvh;
   @media (min-width: 600px) {
-	  background-image: url("../assets/images/background-pattern-desktop.svg");
+    background-image: url("../assets/images/background-pattern-desktop.svg");
   }
 }
 
@@ -43,9 +43,7 @@ summary::after {
 details[open] summary::after {
   content: url("../assets/images/icon-minus.svg");
 }
-details {
-  margin: 2rem auto;
-}
+
 p {
   font-size: 16px;
   margin: 2rem auto;
@@ -69,8 +67,11 @@ h1 {
 }
 
 #card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
   background-color: var(--clr-white);
-  padding: 1rem 2.5rem;
+  padding: 2rem 2.5rem;
   border-radius: 0.75rem;
   margin-inline: auto;
   position: absolute;
