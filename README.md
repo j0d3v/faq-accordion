@@ -5,7 +5,6 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 ## Table of Contents
 
 - [Overview](#overview)
-- [Built With](#built-with)
 - [Author](#author)
 
 ## Overview
@@ -16,11 +15,6 @@ Users should be able to:
 - Navigate questions and toggle answers using keyboard navigation
 - View a responsive layout that adapts to different screen sizes
 - See hover and focus states for all interactive elements
-
-## Built With
-
-- [Vite](https://vite.dev/guide/) – for fast development and bundling  
-- [Bun](https://bun.sh/) – for package management and running scripts  
 
 ## Author
 
